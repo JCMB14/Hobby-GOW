@@ -10,9 +10,10 @@ body {
   background-image: linear-gradient(
     to bottom,
     rgb(255, 255, 255),
-    rgb(255, 255, 255)
+    rgb(94, 94, 94)
   );
 }
+
 header {
   display: flex;
   align-items: center;
@@ -21,19 +22,17 @@ header {
   height: 50px;
   justify-content: center;
 }
-.body_index {
-  background-image: url(img/fondo_god.);
-}
+
 .nave a {
   text-decoration: none;
   color: #0000ff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 9px;
 }
 .nave a:hover {
   background: #0000ff;
   color: white;
   border-radius: 5px;
+  
 }
 footer {
   height: 200px;
@@ -237,7 +236,7 @@ img {
   padding: 20px;
   border: 2px solid #8f8f8f;
   border-radius: 5px;
-  background-image: url(/img/fondo_god.jpg);
+  background-image: url(/img/newfondo.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
